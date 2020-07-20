@@ -1,0 +1,41 @@
+<!Doctype html>
+<!--D:\minecraft calculator app by js-->
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="brain.js"></script>
+		<script src="cookiesinfo.js">
+		</script>
+		
+	</head>
+	
+	<body onload="getloc()">
+		<div id="header">
+<h1>Minecraft Calculator</h1>		
+	</div>
+		<div id="theapp">
+		<div id="inputs">
+			<input type="text" id="sides" placeholder="how much sides in your house">
+			<br>
+			<input type="text" id="height" placeholder="what is the height of one floor">
+			<br>
+			<input type="text" id="blocks" placeholder="deminsions of your house">
+			<br>
+			<a  id="calculations" onclick="calcu()">Calculate</a>
+			</div>
+			<div id="results">
+			<p ><b>you will need</b><span id="res">0</span>Blocks  <b>in stacks</b> <span id="res64">0</span></p>
+			<!--<p><b>if you wanna fill it</b><span>0</span><b>in stacks</b> <span>0</span> </p>
+			-->
+			</div>
+		</div>
+		<div id="footer">
+			&#169; all copyrights for Abdallah hamouda
+			<br>
+			Beta version 0.0.1
+		</div>
+		
+	</body>
+</html>

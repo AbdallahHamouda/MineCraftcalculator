@@ -1,0 +1,104 @@
+/*#8dc85a
+#d81a3b
+#c37b43*/
+*{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+#header{
+	background-color: #ff5454;
+padding-bottom: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 0px;
+	top: 0px;
+}
+h1{
+	color: white;
+	font-family: 'VT323', monospace;
+	text-align: center;
+	background-color: #ff5454;
+	margin-top: 10px;
+	opacity: 1;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+font-size: 45px;
+}
+#inputs{
+	margin-top: 10%;
+	display: flex;
+	flex-direction:column;
+	
+	align-items: center;
+
+}
+#inputs a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #c37b43;
+	padding: 15px;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size: 20px;
+	opacity: .9;
+		text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	cursor: pointer;
+}
+#calculations:hover{
+	opacity: 1;
+ 	
+}
+span{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+p{
+	text-align: center;
+}
+input{
+	border-color: black;
+	height: 30px;
+}
+#footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0 ;
+	color: white;
+	padding-top: 50px;
+	}
+#footer:hover{
+	background-color: #ff5454;
+	animation: footeranim 2s;
+}
+@keyframes footeranim{
+	from{
+		padding-top: 0px;
+	}
+	to{
+		padding-top: 50px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#inputs{
+		margin-top: 37%;
+		
+	}
+	#footer{
+		padding-top: 50px;
+		
+		background-color: #ff5454; 
+	}
+
+}
